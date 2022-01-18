@@ -1,0 +1,10 @@
+.lead {
+  background: #2A2C2F;
+  display: grid;
+  grid-template-columns: 984px;
+  grid-template-rows: 200px auto 615px 14px;
+  width: 100%;
+  height: 100%;
+ justify-items: center;
+ justify-content: center;
+}

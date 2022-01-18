@@ -1,0 +1,13 @@
+.header__lang-link {
+  flex-direction: row;
+  list-style: none;
+  line-height: 28px;
+  font-size: 24px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #fff;
+  width: 30px;
+  height: 28px;
+
+}
+
