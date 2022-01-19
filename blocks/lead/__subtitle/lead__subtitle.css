@@ -2,9 +2,8 @@
   padding-top: 32px;
   line-height: 36px;
   font-size: 30px;
-  font-weight: normal;
-  width: 640px;
-  min-height: 72px;
-  margin: 0;
+  font-weight: 400;
+  max-width: 640px;
+  margin: 0 auto;
   text-align: center;
 }

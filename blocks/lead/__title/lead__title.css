@@ -3,8 +3,9 @@
   font-size: 96px;
   font-weight: 900;
   font-style: normal;
-  width: 720px;
+  max-width: 720px;
   min-height: 200px;
-  margin: 0;
+  margin: 0 auto;
   text-align: center;
+
 }
