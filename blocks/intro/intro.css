@@ -1,0 +1,11 @@
+.intro {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: repeat(3, max-content);
+  margin: 114px auto 0;
+  max-width: 984px;
+  justify-content: start;
+  align-content: center;
+}
+
+

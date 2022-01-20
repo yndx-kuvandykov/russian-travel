@@ -1,8 +1,6 @@
 .lead {
   display: grid;
-  grid-template-columns: minmax(min-content, max-content);
   grid-template-rows: repeat(4, max-content);
-  width: 100%;
   justify-content: center;
   align-content: center;
 }

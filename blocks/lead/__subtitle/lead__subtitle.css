@@ -7,3 +7,20 @@
   margin: 0 auto;
   text-align: center;
 }
+
+@media screen and (max-width: 425px) {
+  .lead__subtitle {
+    font-size: 25px;
+    line-height: 26px;
+    max-height: 25px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__subtitle {
+    padding-top: 16px;
+    font-size: 16px;
+    line-height: 20px;
+    max-height: 56px;
+  }
+}
