@@ -8,7 +8,7 @@
   margin: auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .lead__image {
     max-width: 928px;
     max-height: 636px;
@@ -16,14 +16,14 @@
   }
 }
 
-@media screen and (max-width: 768px)  {
+@media screen and (max-width: 1023px)  {
   .lead__image {
     max-width: 768px;
     max-height: 536px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .lead__image {
     max-width: 320px;
     max-height: 240px;

@@ -4,6 +4,9 @@
   flex-direction: column;
   margin: 0 auto;
   background: #2A2C2F;
+  color: #fff;
+  max-width: 1280px;
+  width: 100%;
   /*fonts*/
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -11,8 +14,5 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  color: #fff;
-  max-width: 1280px;
-  width: 100%;
 }
 
