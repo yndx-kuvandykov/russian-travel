@@ -1,11 +1,16 @@
 .header__lang {
-  display: grid;
-  grid-template-columns: max-content max-content;
-  grid-template-rows: min-content;
+  display: flex;
   list-style: none;
   width: 100%;
   margin: 0;
   padding: 0;
   justify-content: space-between;
   align-self: center;
+  max-width: 80px;
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang {
+    max-width: 62px;
+  }
 }

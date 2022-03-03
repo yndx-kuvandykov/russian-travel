@@ -1,26 +1,19 @@
 .header {
-  display: grid;
-  grid-template-columns: 176px 78px;
-  grid-template-rows: max-content;
+  display: flex;
   justify-content: space-between;
-  margin: 0;
-  padding: 28px 28px 56px;
+  margin: 28px 28px 56px;
+  padding: 0;
 }
 
 @media screen and (max-width: 1279px) {
   .header {
-    padding: 28px 48px 48px;
+    margin: 28px 48px 48px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .header {
-    padding: 16px 16px 48px;
+    margin: 16px 16px 48px;
   }
 }
 
-@media screen and (max-width: 420px) {
-  .header {
-    padding: 20px 30px 48px;
-  }
-}
