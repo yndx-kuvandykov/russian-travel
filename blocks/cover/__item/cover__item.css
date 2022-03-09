@@ -1,0 +1,16 @@
+.cover__item {
+  background-image: url("./images/cover-trains.jpg");
+  max-width: 1184px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.cover__item::before {
+  content: '';
+  background-image: url(./images/cover-trains.jpg);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
