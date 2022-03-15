@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-size: 100%;
   max-width: 1184px;
+  width: 100%;
   min-height: 740px;
   position: relative;
   display: flex;
@@ -15,6 +16,8 @@
   text-align: center;
   align-items: center;
   z-index: 0;
+  object-fit: cover;
+  padding: 0;
 }
 
 .cover__item::before {
@@ -34,4 +37,21 @@
   opacity: 0.8;
 }
 
+@media screen and (max-width: 1279px) {
+  .cover__item {
+    min-height: 640px;
+  }
+}
 
+@media screen and (max-width: 1023px) {
+  .cover__item {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__item {
+  min-height: 200px;
+
+  }
+}
