@@ -1,5 +1,5 @@
 .page {
-  font-family: 'Inter';
+  font-family: 'Inter', 'Times New Roman', sans-serif;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -7,7 +7,6 @@
   color: #fff;
   max-width: 1280px;
   width: 100%;
-  /*fonts*/
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
